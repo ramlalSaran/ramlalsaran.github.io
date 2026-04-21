@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ram Saran - Full Stack Developer | Premium Web Development & App Solutions">
+    <meta name="keywords" content="web developer, full stack developer, React, Laravel, PHP, web design, portfolio">
+    <meta name="author" content="Ram Saran">
+    <meta name="theme-color" content="#0a0e27">
+    <title>Ram Saran | Full Stack Developer - Premium Web Solutions</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">Ram Saran</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link cta-nav">Contact Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="word-carousel">
+                            <span>Building</span>
+                            <span>Creating</span>
+                            <span>Designing</span>
+                        </span>
+                        Modern Digital Solutions
+                    </h1>
+                    <p class="hero-subtitle">
+                        Full Stack Developer crafting premium websites and apps that transform businesses. Expertise in modern web technologies and user-centric design.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                            <span>Hire Me</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-secondary" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">
+                            <span>View Work</span>
+                            <i class="fas fa-briefcase"></i>
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-text">
+                            <h4>Web Development</h4>
+                            <p>Modern & Fast</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="card-text">
+                            <h4>UI/UX Design</h4>
+                            <p>Beautiful & Intuitive</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="card-text">
+                            <h4>Performance</h4>
+                            <p>Lightning Fast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hi, I'm Ram Saran, a passionate Full Stack Developer based in Sardarshahar, Churu, Rajasthan, India. I specialize in building modern, responsive, and high-performance websites and web applications that drive real business results.
+                    </p>
+                    <p class="about-body">
+                        With strong expertise in technologies like HTML, CSS, JavaScript, PHP, Laravel, CodeIgniter, and React, I help businesses, students, and local clients establish a powerful online presence. My approach combines clean code architecture with stunning visual design to create digital solutions that users love.
+                    </p>
+                    <p class="about-body">
+                        Every project I undertake is a commitment to excellence. I focus on creating websites and applications that are not only visually premium but also perform exceptionally well. From initial concept to final deployment, I ensure every detail is crafted with precision and care.
+                    </p>
+                    <p class="about-closing">
+                        I'm always learning, experimenting with new technologies, and pushing the boundaries of what's possible in web development. When I'm not coding, you'll find me exploring the latest web trends or contributing to the developer community.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Full Stack Development Expertise</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Responsive & Modern Design</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Client-Focused Approach</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-gradient"></div>
+                        <div class="image-frame">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Comprehensive solutions tailored to your needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Business Website Development</h3>
+                    <p>Create a professional online presence with modern, responsive websites that showcase your business and convert visitors into customers.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Fully Responsive Design</li>
+                        <li><i class="fas fa-check"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check"></i> Fast Loading Speed</li>
+                        <li><i class="fas fa-check"></i> Security Features</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Portfolio Website Design</h3>
+                    <p>Showcase your work with a stunning personal or professional portfolio that leaves a lasting impression and attracts opportunities.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Design</li>
+                        <li><i class="fas fa-check"></i> Project Showcase</li>
+                        <li><i class="fas fa-check"></i> Smooth Animations</li>
+                        <li><i class="fas fa-check"></i> Contact Integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Web App Development</h3>
+                    <p>Build powerful, interactive web applications with modern technologies. From dashboards to complex systems, I create scalable solutions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> React & JavaScript</li>
+                        <li><i class="fas fa-check"></i> Database Integration</li>
+                        <li><i class="fas fa-check"></i> User Authentication</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS3 & SCSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Laravel</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CodeIgniter</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skill-badges">
+                        <span class="badge">Git & GitHub</span>
+                        <span class="badge">Responsive Design</span>
+                        <span class="badge">UI/UX Design</span>
+                        <span class="badge">Web Performance</span>
+                        <span class="badge">SEO Optimization</span>
+                        <span class="badge">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Showcasing premium web solutions</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder project-1">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="btn btn-small" onclick="openModal('project1')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Modern Business Website</h3>
+                        <p>A sleek, fully responsive website for an e-commerce business featuring product showcases, smooth navigation, and integrated payment gateway.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder project-2">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="btn btn-small" onclick="openModal('project2')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Professional Portfolio Website</h3>
+                        <p>Personal branding portfolio with smooth animations, dark theme, project showcase, and seamless contact integration for creative professionals.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>CSS3</span>
+                            <span>Animation</span>
+                            <span>Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder project-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="btn btn-small" onclick="openModal('project3')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Advanced App Dashboard</h3>
+                        <p>Interactive web app dashboard with real-time analytics, user management, charts, and data visualization built with React and Laravel backend.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1')">&times;</span>
+            <div class="modal-body">
+                <h2>Modern Business Website</h2>
+                <div class="modal-image project-1">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <p class="modal-description">
+                    This modern business website was designed for an e-commerce company looking to establish a strong online presence. The website features a fully responsive design that looks perfect on all devices, from mobile phones to desktop computers.
+                </p>
+                <h4>Key Features:</h4>
+                <ul class="modal-features">
+                    <li>Fully responsive and mobile-optimized design</li>
+                    <li>Product showcase with filtering and search</li>
+                    <li>Integrated shopping cart and checkout system</li>
+                    <li>Fast loading speed (Lighthouse score 95+)</li>
+                    <li>SEO optimized for better search rankings</li>
+                    <li>Contact and inquiry forms</li>
+                </ul>
+                <h4>Technologies Used:</h4>
+                <div class="modal-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2')">&times;</span>
+            <div class="modal-body">
+                <h2>Professional Portfolio Website</h2>
+                <div class="modal-image project-2">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="modal-description">
+                    A stunning personal portfolio website designed to showcase creative work and attract potential clients and employers. The site features smooth animations, dark theme, and elegant transitions that leave a lasting impression.
+                </p>
+                <h4>Key Features:</h4>
+                <ul class="modal-features">
+                    <li>Smooth scroll animations and transitions</li>
+                    <li>Dark luxury theme with gold accents</li>
+                    <li>Project showcase with detailed descriptions</li>
+                    <li>About section with personal branding</li>
+                    <li>Contact form with email integration</li>
+                    <li>Social media links and CTAs</li>
+                </ul>
+                <h4>Technologies Used:</h4>
+                <div class="modal-tech">
+                    <span>React</span>
+                    <span>CSS3 (SCSS)</span>
+                    <span>JavaScript</span>
+                    <span>Framer Motion</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project3')">&times;</span>
+            <div class="modal-body">
+                <h2>Advanced App Dashboard</h2>
+                <div class="modal-image project-3">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <p class="modal-description">
+                    A comprehensive web application dashboard built with React and Laravel, designed for businesses to manage their operations, view analytics, and make data-driven decisions. The dashboard provides real-time insights and interactive visualizations.
+                </p>
+                <h4>Key Features:</h4>
+                <ul class="modal-features">
+                    <li>Real-time analytics and data visualization</li>
+                    <li>User management and authentication system</li>
+                    <li>Interactive charts and graphs</li>
+                    <li>Database-driven with MySQL</li>
+                    <li>RESTful API backend with Laravel</li>
+                    <li>Admin panel and user roles</li>
+                </ul>
+                <h4>Technologies Used:</h4>
+                <div class="modal-tech">
+                    <span>React</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>Chart.js</span>
+                    <span>RESTful API</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Let's work together to bring your ideas to life</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have a project in mind? Let's discuss how I can help you achieve your goals.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:ramlalsaranoffical@gmail.com">ramlalsaranoffical@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919376136511">+91 9376136511</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/919376136511" target="_blank">+91 9376136511</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Sardarshahar, Churu, Rajasthan, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="socials">
+                            <a href="https://github.com/ramlalSaran" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ram.jaat.1327/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ramlal-saran-5950a7304/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://wa.me/919376136511" target="_blank" class="social-link">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                        <span class="input-focus"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ram Saran</h3>
+                    <p>Full Stack Developer crafting premium digital solutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Portfolio Design</a></li>
+                        <li><a href="#services">App Development</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ram Saran. All rights reserved.</p>
+                <p>Designed & Developed with <span class="heart">❤️</span> in Rajasthan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919376136511" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
